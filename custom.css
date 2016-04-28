@@ -315,11 +315,15 @@ width: 99.5% !important;
 }
 
 #type .dimslider {
-	width: 300px !important;
+	width: 308px !important;
 }
 
 #type .dimsmall {
 	width: 260px !important;
+}
+
+#slider[data-type="relay"] {
+	display: none;
 }
 
 .dimslider, .dimslider .ui-slider-range {
