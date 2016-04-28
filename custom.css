@@ -216,6 +216,10 @@ body table#mobileitem tr td:first-child{
 	margin-left: -5px;
 }
 
+body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
+	margin-top: 16px !important;
+}
+
 .navbar .nav .dropdown-menu {
     border: 0px !important;
     font-family: Open Sans,sans-serif;
@@ -310,10 +314,22 @@ width: 99.5% !important;
 	color: white !important;
 }
 
+#type .dimslider {
+	width: 300px !important;
+}
+
+#type .dimsmall {
+	width: 260px !important;
+}
+
 .dimslider, .dimslider .ui-slider-range {
 	position: relative;
 	box-shadow: none;
 	border-radius: 0px !important;
+}
+
+.dimslider {
+	border: 1px solid black !important;
 }
 
 .bannav {
