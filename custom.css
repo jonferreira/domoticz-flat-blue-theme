@@ -428,6 +428,21 @@ span[data-i18n="Room"] {
 	background-color: #7f8588 !important;
 }
 
+#cProxy {
+	padding-top: 45px;
+	background-image: url("/styles/flat-blue/images/proxy_blue.png") !important;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+}
+
+#cProxy:hover {
+	padding-top: 45px;
+	background-image: url("/styles/flat-blue/images/proxy_white.png") !important;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+	background-color: #7f8588 !important;
+}
+
 .current_page_item #cFloorplans {
 	background-image: url("/styles/flat-blue/images/map_white.png") !important;
 }
@@ -525,6 +540,26 @@ span[data-i18n="Room"] {
 
 .current_page_item #cUtility {
 	background-image: url("/styles/flat-blue/images/util_white.png") !important;
+}
+
+.navbar .nav li.dropdown.clcustommenu a.dropdown-toggle {
+	padding-top: 45px;
+	background-image: url("/styles/flat-blue/images/custom_blue.png") !important;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+	border-right: medium none;
+}
+
+.navbar .nav li.dropdown.clcustommenu a.dropdown-toggle:hover {
+	padding-top: 45px;
+	background-image: url("/styles/flat-blue/images/custom_white.png") !important;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+	background-color: #7f8588 !important;
+}
+
+.navbar .nav li.open.dropdown.clcustommenu a.dropdown-toggle {
+	background-image: url("/styles/flat-blue/images/custom_white.png") !important;
 }
 
 .navbar .nav li.dropdown a.dropdown-toggle {
