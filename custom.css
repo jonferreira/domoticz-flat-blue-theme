@@ -226,7 +226,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
     padding: 4px;
     background-color: #ffffff;
     background-image: none;
-	border-radius: 0px;
+	border-radius: 0px !important;
 }
 
 .dropdown-menu {
