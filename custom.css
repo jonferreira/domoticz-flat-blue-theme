@@ -591,8 +591,8 @@ span[data-i18n="Room"] {
 }
 
 tr.odd {
-    background-color: #0199e0;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 tr.even {
