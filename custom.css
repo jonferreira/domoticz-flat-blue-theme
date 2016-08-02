@@ -659,3 +659,7 @@ input, textarea, .uneditable-input {
     cursor:pointer;
 	margin-bottom: 15px;
 }
+
+.sub-tabs > li > a {
+    cursor: pointer;
+}
