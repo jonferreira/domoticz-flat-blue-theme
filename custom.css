@@ -158,11 +158,11 @@ font-family: Open Sans, sans-serif;
     z-index: 1031;
     position: fixed;
     border-bottom-left-radius: none;
-	border-bottom-right-radius: none;
-	border-color: none;
-	font-size: 9px;
-	display: none;
-	}
+    border-bottom-right-radius: none;
+    border-color: none;
+    font-size: 11px;
+    display: none;
+}
 	
 .brand h2{
 	padding:0 !important; 	width: 227px; font-size:12px
