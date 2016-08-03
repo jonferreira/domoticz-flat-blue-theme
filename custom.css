@@ -663,3 +663,7 @@ input, textarea, .uneditable-input {
 .sub-tabs > li > a {
     cursor: pointer;
 }
+
+.page-header-small {
+    border-bottom: 1px solid #000000;
+}
