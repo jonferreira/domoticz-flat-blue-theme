@@ -649,7 +649,7 @@ input, textarea, .uneditable-input {
     -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
     box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset; */
     background: #000000;
-    color:#888;
+    color:#FFFFFF;
     border:none;
     outline:none;
     display: inline-block;
@@ -657,7 +657,8 @@ input, textarea, .uneditable-input {
     -moz-appearance:none;
     appearance:none;
     cursor:pointer;
-	margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .sub-tabs > li > a {
