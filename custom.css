@@ -648,8 +648,8 @@ input, textarea, .uneditable-input {
     -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
     -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
     box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset; */
-    background: #000000;
-    color:#FFFFFF;
+    background: #FFFFFF;
+    color:#000000;
     border:none;
     outline:none;
     display: inline-block;
