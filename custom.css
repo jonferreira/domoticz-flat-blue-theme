@@ -11,7 +11,7 @@
 	src: local('DroidSans'), url('fonts/DroidSans.ttf') format('truetype');
 }
 body {
-	background: #F2F2F3;
+	background: #EAEAEA;
 	color: black;
 }
 #appversion:after {
@@ -158,11 +158,11 @@ font-family: Open Sans, sans-serif;
     z-index: 1031;
     position: fixed;
     border-bottom-left-radius: none;
-	border-bottom-right-radius: none;
-	border-color: none;
-	font-size: 9px;
-	display: none;
-	}
+    border-bottom-right-radius: none;
+    border-color: none;
+    font-size: 11px;
+    display: none;
+}
 	
 .brand h2{
 	padding:0 !important; 	width: 227px; font-size:12px
@@ -348,7 +348,7 @@ width: 99.5% !important;
 
 .ui-widget-content {
     /* background: transparent none repeat scroll 0 0 !important; */
-	background: #F2F2F3;
+	background: #FFFFFF;
     /* border: 1px solid #666 !important; */
 	border: 0px;
     color: black !important;
@@ -591,12 +591,12 @@ span[data-i18n="Room"] {
 }
 
 tr.odd {
-    background-color: #0199e0;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 tr.even {
-    background-color: #F2F2F3;
+    background-color: #EAEAEA;
     color: #333;
 }
 
@@ -605,7 +605,7 @@ tr.even td.sorting_1 {
 }
 
 tr.odd td.sorting_1 {
-    background-color: #F2F2F3;
+    background-color: #EAEAEA;
 	color: #333;
 }
 
@@ -624,7 +624,7 @@ input, textarea, .uneditable-input {
 }
 
 .highcharts-background {
-	fill: #F2F2F3;
+	fill: #EAEAEA;
 	stroke-width: 0px;
 	strokeWidth: 0px;
 }
@@ -648,8 +648,8 @@ input, textarea, .uneditable-input {
     -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
     -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
     box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset; */
-    background: #f8f8f8;
-    color:#888;
+    background: #FFFFFF;
+    color:#000000;
     border:none;
     outline:none;
     display: inline-block;
@@ -657,5 +657,22 @@ input, textarea, .uneditable-input {
     -moz-appearance:none;
     appearance:none;
     cursor:pointer;
-	margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sub-tabs > li > a {
+    cursor: pointer;
+}
+
+.page-header-small {
+    border-bottom: 1px solid #000000;
+}
+
+table.mobileitem {
+    border-style: solid;
+}
+
+.btnsmall-sel {
+	border-radius: 0px;
 }
