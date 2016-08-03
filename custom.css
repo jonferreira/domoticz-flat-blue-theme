@@ -11,7 +11,7 @@
 	src: local('DroidSans'), url('fonts/DroidSans.ttf') format('truetype');
 }
 body {
-	background: #E2E2E2;
+	background: #E6E6E6;
 	color: black;
 }
 #appversion:after {
@@ -348,7 +348,7 @@ width: 99.5% !important;
 
 .ui-widget-content {
     /* background: transparent none repeat scroll 0 0 !important; */
-	background: #E2E2E2;
+	background: #E6E6E6;
     /* border: 1px solid #666 !important; */
 	border: 0px;
     color: black !important;
@@ -596,7 +596,7 @@ tr.odd {
 }
 
 tr.even {
-    background-color: #E2E2E2;
+    background-color: #E6E6E6;
     color: #333;
 }
 
@@ -605,7 +605,7 @@ tr.even td.sorting_1 {
 }
 
 tr.odd td.sorting_1 {
-    background-color: #E2E2E2;
+    background-color: #E6E6E6;
 	color: #333;
 }
 
@@ -624,7 +624,7 @@ input, textarea, .uneditable-input {
 }
 
 .highcharts-background {
-	fill: #E2E2E2;
+	fill: #E6E6E6;
 	stroke-width: 0px;
 	strokeWidth: 0px;
 }
