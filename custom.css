@@ -668,3 +668,7 @@ input, textarea, .uneditable-input {
 .page-header-small {
     border-bottom: 1px solid #000000;
 }
+
+table.mobileitem {
+    border-style: solid;
+}
