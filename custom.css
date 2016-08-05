@@ -152,6 +152,11 @@ body table#itemtablesmall tbody tr td:first-child, body table#itemtablesmalldoub
 body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
     margin-top: 16px !important;
 }
+
+body table tr {
+	border-radius: 0px !important;
+}
+
 .navbar .nav .dropdown-menu {
     background-color: #ffffff;
     background-image: none;
@@ -227,7 +232,10 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
     color: white !important;
 }
 #name[style*="background-color: rgb(223, 45, 58)"] {
-	background-color: rgb(223, 45, 58) !important;
+	background-color: #DF2D3A !important;
+}
+#name[style*="background-color: #DF2D3A"] {
+	background-color: #DF2D3A !important;
 }
 #bigtext {
     color: white !important;
