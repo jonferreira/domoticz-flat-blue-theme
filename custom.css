@@ -148,6 +148,7 @@ body table#itemtablesmall tbody tr td:first-child, body table#itemtablesmalldoub
     padding: 5px;
     width: 100% !important;
 }
+
 body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
     margin-top: 16px !important;
 }
@@ -224,6 +225,9 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
 #name {
     background-color: #0199e0 !important;
     color: white !important;
+}
+#name[style*="background-color: rgb(223, 45, 58)"] {
+	background-color: rgb(223, 45, 58) !important;
 }
 #bigtext {
     color: white !important;
@@ -556,4 +560,17 @@ table.mobileitem {
     padding: 10px;
     text-decoration: none;
     text-transform: none;
+}
+
+#noty_topRight_layout_container li {
+	border: 1px solid !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	color: #0072b4 !important;
+	background-color: #ffffff !important;
+	background-image: none !important;
+}
+
+#noty_topRight_layout_container .btn {
+	margin-top: 15px !important;
 }
